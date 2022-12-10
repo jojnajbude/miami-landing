@@ -1,0 +1,27 @@
+.contact-us {
+  &__info {
+    margin-bottom: 24px;
+
+  }
+
+  &__label {
+    font-size: 14px;
+    margin-bottom: 8px;
+    color: #9fadc2;
+  }
+
+  &__link {
+    font-size: 16px;
+    line-height: 27px;
+
+    transition: color 0.3s;
+
+    &:hover {
+      color: $blue;
+    }
+  }
+
+  &__field {
+    margin: 0 0 16px;
+  }
+}
